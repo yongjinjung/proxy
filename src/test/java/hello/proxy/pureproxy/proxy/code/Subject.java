@@ -1,2 +1,5 @@
-package hello.proxy.pureproxy.proxy.code;public class Subject {
+package hello.proxy.pureproxy.proxy.code;
+
+public interface Subject {
+    String operation();
 }
