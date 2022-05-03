@@ -12,7 +12,7 @@ public class LogTraceAdvice implements MethodInterceptor {
 
     private final LogTrace logTrace;
 
-    public LogTraceAdvice(LogTrace logTrace) {
+    public  LogTraceAdvice(LogTrace logTrace) {
         this.logTrace = logTrace;
     }
 
